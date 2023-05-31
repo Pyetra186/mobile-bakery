@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    background-image: url(./img_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+   
+}
+.header{
+    height: 80px;
+    background-color: rgb(226, 219, 209);
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+    height: 65px ;
+    width: 50px;
+}
+.menu{
+   
+}
+.principal_title{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 80px;
+    justify-content: center;
+    margin-left: 75px;
+    transform: translate(0px,-120px);
+}
+.sub_title{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-left: 110px;
+    transform: translate(0px, -140px);
+}
+.icon_barras{
+    height: 50px;
+    color: rgb(63, 51, 46);
+
+}
+.botao{
+     color: rgba(44, 41, 35, 0.425)
+    font-family: 'Varela Round', sans-serif;
+    transform: translate(90px, 90px);
+}
